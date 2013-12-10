@@ -1,0 +1,79 @@
+/*  COLORS:
+Med blue = 51, 193, 227, #33C1E3
+Dark blue = 51, 167, 187, #33A7BB
+Orange = 255, 126, 57 , #FF7E39
+Pale orange = 255, 173, 138, #FFAD8A
+Gray = 148, 148, 148, #949494
+Light gray = 247, 247, 247, #F7F7F7
+ */
+
+ html {
+ 	min-width: 800px;
+ }
+
+/* Header and main photo */
+ #splash-photo-container {
+ 	background-image: url('images/pills.jpg');
+ 	background-size: cover;
+ 	height: 500px;
+ }
+
+ #splash-header {
+ 	margin: 0;
+ 	padding: 30px;
+ 	text-align: center;
+ 	font-size: 60px;
+ }
+
+ #splash-button-container {
+ 	margin: 40px auto;
+ 	width: 170px;
+ }
+
+ #splash-button {
+ 	width: 170px;
+ 	height: 70px;
+ 	font-size: 25px;
+ }
+
+
+/* Sub header / content photos */
+ #splash-content-container {
+ 	padding: 30px;
+ 	height: 400px;
+ }
+
+ #splash-images-container {
+ 	margin: auto;
+ 	width: 720px;
+ }
+
+ .splash-image-container {
+ 	float: left;
+ 	margin: 20px;
+ 	width: 200px;
+
+ 	text-align: center;
+ }
+
+ .splash-image-container img {
+ 	width: 200px;
+ }
+
+ .splash-image-container span {
+ 	color: #949494;
+ 	font-weight: 100;
+ }
+
+ /* Sign up now */
+ #sign-up-container {
+ 	background-image: url('images/black-linen.png');
+ 	height: 300px;
+ 	
+ 	margin: 0;
+ 	padding: 2px;
+ 	text-align: center;
+ 	font-size: 40px;
+ 	color: #949494;
+ }
+

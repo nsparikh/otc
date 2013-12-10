@@ -1,0 +1,92 @@
+/*  COLORS:
+Med blue = 51, 193, 227, #33C1E3
+Dark blue = 51, 167, 187, #33A7BB
+Orange = 255, 126, 57 , #FF7E39
+Pale orange = 255, 173, 138, #FFAD8A
+Gray = 148, 148, 148, #949494
+Light gray = 247, 247, 247, #F7F7F7
+ */
+
+
+/* Main body */
+#content-container {
+	margin: 40px;
+}
+#symptoms-container {
+	margin: 30px auto;
+	padding: 20px 0 5px 0;
+	width: 1090px;
+}
+#symptoms-form-container {
+	margin: auto;
+}
+.symptoms-inner-container {
+	width: 250px;
+	height: 350px;
+	padding: 0 10px 0 10px;
+	float: left;
+	font-size: 14px;
+
+}
+#button-container {
+	width: 200px;
+	margin: auto;
+}
+#submit-button {
+	width: 200px;
+	margin-top: 20px;
+}
+.severity-container {
+	padding-right: 35px;
+	font-weight: 100;
+}
+.input-container {
+	display: block;
+	height: 30px;
+
+	padding: 0;
+	margin-bottom: 10px;
+}
+.name-container {
+	width: 100px;
+	float: left;
+}
+a.info 
+{ 
+    position:relative; 
+    z-index:24; background-color:#ddd; 
+    color:#000; 
+    text-decoration:none 
+} 
+
+a.info:hover {z-index:25; background-color:#ff0} 
+
+a.info span{display: none} 
+
+a.info:hover span 
+{ 
+    display:block; 
+    position:absolute; 
+    top:2em; left:2em; width:10em; 
+    border:1px solid #0cf; 
+    background-color:#555; color:#fff; 
+} 
+
+
+/* Slider popup */
+.slider-container {
+	z-index: 24;
+}
+.slider-container:hover {
+	z-index: 25; 
+}
+.slider-container span {
+	display: none;
+	font-size: 10px;
+}
+.slider-container:hover span {
+	display: block;
+}
+
+
+

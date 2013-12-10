@@ -1,0 +1,35 @@
+/*  COLORS:
+Med blue = 51, 193, 227, #33C1E3
+Dark blue = 51, 167, 187, #33A7BB
+Orange = 255, 126, 57 , #FF7E39
+Pale orange = 255, 173, 138, #FFAD8A
+Gray = 148, 148, 148, #949494
+Light gray = 247, 247, 247, #F7F7F7
+ */
+
+ html {
+ 	min-width: 800px;
+ }
+
+ #about-content-container {
+ 	width: 600px;
+ 	margin: 40px auto;
+ 	padding: 10px;
+
+ 	text-align: center;
+ }
+
+ #about-content-container p {
+ 	padding: 10px;
+ }
+
+ #about-content-container a {
+ 	text-decoration: none;
+ 	color: #33C1E3;
+ }
+ #about-content-container a:hover {
+ 	color: #FF7E39;
+ }
+ #about-content-container a:active {
+ 	color: #FF7E39;
+ }
